@@ -6,14 +6,14 @@ body {
 .heading {
   position: relative;
   text-align: center;
-  color: black;
 }
 
 .title {
-  font-size: 40px;
   position: absolute;
-  top: 0%;
-  left: 25%;
+  font-size: 30px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro {
@@ -21,13 +21,19 @@ body {
   font-size: 20px;
   color: whitesmoke;
   top: 90%;
-  left: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #cover-photo {
   width: 1009px;
-  height: 300px;
+  height: 200px;
+  align-items: center;
   object-fit: cover;
+}
+
+.navbar {
+  align-items: center;
 }
 
 .navbar ul {
@@ -52,7 +58,6 @@ body {
 .navbar li {
   float: left;
   padding-left: 80px;
-  padding-right: 80px;
 }
 
 .content {
@@ -65,12 +70,9 @@ h2 {
 }
 
 /* widescreen displays */
-@media only screen and (min-width: 1010px) {
+@media only screen and (min-width: 1024px) {
   #cover-photo {
     width: 1009px;
-  }
-  .title {
-    font-size: 30px;
   }
   .navbar li {
     padding-left: 80px;
@@ -79,29 +81,44 @@ h2 {
 }
 
 /* tablets */
-@media only screen and (max-width: 919px) {
+@media only screen and (max-width: 768px) {
   #cover-photo {
-    width: 910px;
-  }
-  .title {
-    font-size: 30px;
+    width: 750px;
+    height: 200px;
   }
   .navbar li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
 /* phones */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px) {
   #cover-photo {
-    width: 390px;
+    width: 400px;
+    height: 100px;
   }
   .title {
-    font-size: 30px;
+    font-size: 20px;
   }
   .navbar li {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+/* small phones */
+@media only screen and (max-width: 425px) {
+  #cover-photo {
+    width: 400px;
+    height: 100px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .navbar li {
+    padding-left: 0px;
+    font-size: 15px;
   }
 }
