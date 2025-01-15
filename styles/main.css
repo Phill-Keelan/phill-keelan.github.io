@@ -1,0 +1,107 @@
+body {
+  background-color: azure;
+  font-family: Aptos, sans-serif;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.title {
+  font-size: 40px;
+  position: absolute;
+  top: 0%;
+  left: 25%;
+}
+
+.intro {
+  position: absolute;
+  font-size: 20px;
+  color: whitesmoke;
+  top: 90%;
+  left: 44%;
+}
+
+#cover-photo {
+  width: 1009px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: #d4ddff;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: black;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #bdcbff;
+}
+
+.navbar li {
+  float: left;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.content {
+  border: 4px solid black;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 1010px) {
+  #cover-photo {
+    width: 1009px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .navbar li {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  #cover-photo {
+    width: 910px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  #cover-photo {
+    width: 390px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
