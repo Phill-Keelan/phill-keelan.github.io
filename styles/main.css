@@ -3,37 +3,22 @@ body {
   font-family: Aptos, sans-serif;
 }
 
-.heading {
-  position: relative;
+#title {
+  max-width: 980px;
   text-align: center;
 }
 
-.title {
-  position: absolute;
-  font-size: 30px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+h1 {
+  font-size: 40px;
 }
 
-.intro {
-  position: absolute;
+h2 {
   font-size: 20px;
-  color: whitesmoke;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#cover-photo {
-  width: 1400px;
-  height: 200px;
-  align-items: center;
-  object-fit: cover;
 }
 
 .navbar {
   align-items: center;
+  max-width: 988px;
 }
 
 .navbar ul {
@@ -46,7 +31,7 @@ body {
 
 .navbar a {
   color: black;
-  padding: 10px;
+  padding: 5px;
   display: block;
   text-align: center;
 }
@@ -62,18 +47,15 @@ body {
 
 .content {
   border: 4px solid black;
-  margin: 10px;
+  max-width: 980px;
 }
 
-h2 {
+h3 {
   text-align: center;
 }
 
 /* Large Laptop widescreen displays */
 @media only screen and (min-width: 1440px) {
-  #cover-photo {
-    width: 1409px;
-  }
   .navbar li {
     padding-left: 100px;
     padding-right: 100px;
@@ -82,9 +64,6 @@ h2 {
 
 /* widescreen displays */
 @media only screen and (min-width: 1024px) {
-  #cover-photo {
-    width: 1009px;
-  }
   .navbar li {
     padding-left: 80px;
     padding-right: 80px;
@@ -93,10 +72,6 @@ h2 {
 
 /* tablets */
 @media only screen and (max-width: 768px) {
-  #cover-photo {
-    width: 750px;
-    height: 200px;
-  }
   .navbar li {
     padding-left: 40px;
     padding-right: 40px;
@@ -105,13 +80,6 @@ h2 {
 
 /* phones */
 @media only screen and (max-width: 425px) {
-  #cover-photo {
-    width: 400px;
-    height: 100px;
-  }
-  .title {
-    font-size: 20px;
-  }
   .navbar li {
     padding-left: 10px;
     padding-right: 10px;
@@ -121,13 +89,6 @@ h2 {
 
 /* small phones */
 @media only screen and (max-width: 425px) {
-  #cover-photo {
-    width: 400px;
-    height: 100px;
-  }
-  .title {
-    font-size: 20px;
-  }
   .navbar li {
     padding-left: 0px;
     font-size: 15px;
