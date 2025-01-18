@@ -26,7 +26,7 @@ body {
 }
 
 #cover-photo {
-  width: 1009px;
+  width: 1400px;
   height: 200px;
   align-items: center;
   object-fit: cover;
@@ -67,6 +67,17 @@ body {
 
 h2 {
   text-align: center;
+}
+
+/* Large Laptop widescreen displays */
+@media only screen and (min-width: 1440px) {
+  #cover-photo {
+    width: 1409px;
+  }
+  .navbar li {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 /* widescreen displays */

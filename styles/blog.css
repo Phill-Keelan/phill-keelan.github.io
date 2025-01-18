@@ -1,0 +1,44 @@
+body {
+  background-color: azure;
+  font-family: Aptos, sans-serif;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: #d4ddff;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: black;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #bdcbff;
+}
+
+.navbar li {
+  float: left;
+  padding-left: 80px;
+}
+
+#box-model-word {
+  max-width: 850px;
+}
+
+#box-model {
+  margin: 50px;
+  border: 30px solid rgb(25, 104, 133);
+  padding: 20px 50px;
+  font-size: 28px;
+  max-width: 600px;
+  text-align: center;
+}
+
+#horse-and-dog {
+  width: 380px;
+}
