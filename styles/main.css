@@ -4,7 +4,7 @@ body {
 }
 
 #title {
-  max-width: 980px;
+  max-width: 1440px;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ h2 {
 
 .navbar {
   align-items: center;
-  max-width: 988px;
+  max-width: 1440px;
 }
 
 .navbar ul {
@@ -47,7 +47,7 @@ h2 {
 
 .content {
   border: 4px solid black;
-  max-width: 980px;
+  max-width: 1440px;
 }
 
 h3 {

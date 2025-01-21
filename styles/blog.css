@@ -42,3 +42,44 @@ body {
 #horse-and-dog {
   width: 380px;
 }
+
+/* Large Laptop widescreen displays */
+@media only screen and (min-width: 1440px) {
+  .navbar li {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 1024px) {
+  .navbar li {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 768px) {
+  .navbar li {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 425px) {
+  .navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+/* small phones */
+@media only screen and (max-width: 425px) {
+  .navbar li {
+    padding-left: 0px;
+    font-size: 15px;
+  }
+}
