@@ -15,23 +15,35 @@
     </div>
 
     <nav class="navbar">
-      <ul>
-        <li><a id="yarns" href="blog/intro.html">Yarns</a></li>
-        <li><a id="reflections" href="blog/box-model.html">Reflections</a></li>
-        <li>
-          <a id="learning" href="blog/learning-plan.html">Learning</a>
-        </li>
-        <li>
-          <a id="te-houtaewa" href="blog/te-houtaewa-template.html"
-            >Te Houtaewa</a
-          >
-        </li>
-      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">Yarns</button>
+        <div class="dropdown-content">
+          <a href="blog/te-houtaewa-template.html">Te Houtewa</a>
+          <a href="blog/intro.html">Intro</a>
+          <a href="blog/learning-plan.html">Learning Plan</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Tech</button>
+        <div class="dropdown-content">
+          <a href="blog/box-model.html">Box Model</a>
+          <a href="blog/javascript-blog.html">JavaScript</a>
+          <a href="#">Loading...</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Culture</button>
+        <div class="dropdown-content">
+          <a href="blog/emotional-intelligence.html">Emotional Intelligence</a>
+          <a href="#">Loading...</a>
+          <a href="#">Loading...</a>
+        </div>
+      </div>
     </nav>
 
     <main>
       <div class="content">
-        <h3>Latest Blog - Culture</h3>
+        <h3>Latest Blog - Javascript</h3>
         <p>
           If you were to visit a restaurant you would be greeted by a waiter and
           lead to your table where you would sit in the mixed aroma of food
