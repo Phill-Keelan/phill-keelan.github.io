@@ -43,6 +43,10 @@ body {
   width: 380px;
 }
 
+.code-screenshot {
+  width: 450px;
+}
+
 /* Large Laptop widescreen displays */
 @media only screen and (min-width: 1440px) {
   .navbar li {
