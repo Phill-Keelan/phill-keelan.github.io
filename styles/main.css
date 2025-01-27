@@ -8,7 +8,7 @@ body {
   max-width: 1440px;
   text-align: center;
   background-color: none;
-  background-image: url('../background-image.png');
+  background-image: url('../img/background-image.png');
   background-size: cover;
 }
 
