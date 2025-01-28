@@ -65,6 +65,17 @@ h1 {
   margin-top: 80px;
 }
 
+table,
+th,
+td {
+  border: 3px, solid, rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
 #box-model-word {
   max-width: 850px;
 }
