@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Personal portfolio",
   "repository": "https://github.com/Phill-Keelan/phill-keelan.github.io",
-  "home": "https://phill-keelan.github.io/",
+  "homepage": "https://github.com/Phill-Keelan/phill-keelan.github.io",
   "main": "server/index.ts",
   "scripts": {
     "start": "node dist/server.js",
@@ -17,7 +17,9 @@
     "test": "vitest",
     "knex": "knex --knexfile ./server/db/knexfile.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "fullstack"
