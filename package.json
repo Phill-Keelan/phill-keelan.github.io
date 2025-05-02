@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Personal portfolio",
   "repository": "https://github.com/Phill-Keelan/phill-keelan.github.io",
-  "homepage": "https://github.com/Phill-Keelan/phill-keelan.github.io",
+  "homepage": "https://phill-keelan.github.io/phill-keelan.github.io",
   "main": "server/index.ts",
   "scripts": {
     "start": "node dist/server.js",
