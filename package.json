@@ -1,9 +1,10 @@
 {
-  "name": "my-fullstack-collection",
+  "name": "phill-keelan.github.io",
   "type": "module",
   "version": "0.1.0",
-  "description": "Build a fullstack collection app",
-  "repository": "https://https://github.com/dev-academy-challenges/my-fullstack-collection",
+  "description": "Personal portfolio",
+  "repository": "https://github.com/Phill-Keelan/phill-keelan.github.io",
+  "home": "https://phill-keelan.github.io/",
   "main": "server/index.ts",
   "scripts": {
     "start": "node dist/server.js",
@@ -21,7 +22,7 @@
   "keywords": [
     "fullstack"
   ],
-  "author": "Dev Academy Aotearoa",
+  "author": "Phill Keelan",
   "license": "ISC",
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
